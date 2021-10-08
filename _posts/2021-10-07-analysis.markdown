@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Analysis on Learnt Represenatation"
+date:   2021-10-07 12:04:39 +0530
+categories: jekyll update
+permalink: representation_analysis
+image_our: /assets/img/distribution_timit_ours.png
+image_pre: /assets/img/distribution_timit_pretrained.png
+
+---
+
+Distribution of distances between AWEs within positive and negative paris.  Positive pair means that both samples are drawn form the same word. Negative pari assumes that samples from this pair are drawn from different classes.
+
+![]({{ page.image_pre | relative_url }})
+
+
+![]({{ page.image_our | relative_url }})
+
+
+
+
+
