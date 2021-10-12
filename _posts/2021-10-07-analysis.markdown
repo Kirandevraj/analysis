@@ -6,18 +6,32 @@ categories: jekyll update
 permalink: representation_analysis
 image_our: /assets/img/distribution_timit_ours.png
 image_pre: /assets/img/distribution_timit_pretrained.png
+image_plot_our: /assets/img/plot_timit_ours.png
+image_plot_pre: /assets/img/plot_timit_pre.png
 
 ---
+
+# __Distribution of Distances between Positive and Negative pairs:__
 
 Distribution of distances between word embeddings within positive and negative paris.  Positive pair means that both samples are drawn form the same word. Negative pair assumes that samples from this pair are drawn from different classes.
 The results are shown on TIMIT dataset.
 
-![]({{ page.image_pre | relative_url }})
+Pretrained             |  Ours
+:-------------------------:|:-------------------------:
+![]({{ page.image_pre | relative_url }})  |  ![]({{ page.image_our | relative_url }})
 
 
-![]({{ page.image_our | relative_url }})
+It can be observed that the positive and negative paris are well separated in our model compared with the pretrained model.
+
+# __t-SNE Plot of word embeddings on TIMIT test set:__
+
+t-SNE Pretrained |
+:--------: |
+![]({{ page.image_plot_pre | relative_url }}) |
+
+t-SNE Our Triplet + CTC + Pretrained |
+:--------: |
+![]({{ page.image_plot_our | relative_url }}) |
 
 
-
-
-
+It can be observed that similar words are better seperated from other words in our model compared to the pretrained model.
