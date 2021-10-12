@@ -9,7 +9,8 @@ image_pre: /assets/img/distribution_timit_pretrained.png
 
 ---
 
-Distribution of distances between AWEs within positive and negative paris.  Positive pair means that both samples are drawn form the same word. Negative pari assumes that samples from this pair are drawn from different classes.
+Distribution of distances between word embeddings within positive and negative paris.  Positive pair means that both samples are drawn form the same word. Negative pair assumes that samples from this pair are drawn from different classes.
+The results are shown on TIMIT dataset.
 
 ![]({{ page.image_pre | relative_url }})
 
