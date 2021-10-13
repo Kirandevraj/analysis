@@ -8,8 +8,17 @@ image_our: /assets/img/distribution_timit_ours.png
 image_pre: /assets/img/distribution_timit_pretrained.png
 image_plot_our: /assets/img/plot_timit_ours.png
 image_plot_pre: /assets/img/plot_timit_pre.png
-
+image_statistical: /assets/img/kws_significance_test.png
 ---
+# __Statistical Significance Test:__
+
+Here we show Critical difference (CD) diagram using Friedman Test and a post-hoc pair-wise Nemenyi test, with a significance level of 0.05.  High-to-low rankings run left to right. The higher the rank, the better the technique. The x axis where the lines end represents the average rank position of the respective methods for TIMIT datasets. The null hypothesis is that the average ranks of each pair of methods do not differ with statistical significance. Horizontal lines connect the lines of the methods for which we cannot exclude the hypothesis that their average ranks are equal. Any pair of methods whose lines are not connected with a horizontal line can be seen as having an average rank that is different with statistical significance. Our Pretrained + CTC + Triplet method's rank is higher than all other methods. Hence our method is statistically significant over all other methods.  The CD is 0.09.
+
+Statisitcal Significance Test |
+:--------: |
+![]({{ page.image_statistical | relative_url }}) |
+
+
 
 # __Distribution of Distances between Positive and Negative pairs:__
 
