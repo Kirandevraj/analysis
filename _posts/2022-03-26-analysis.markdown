@@ -8,7 +8,7 @@ image_our: /assets/img/distribution_timit_ours.png
 image_pre: /assets/img/distribution_timit_pretrained.png
 image_plot_our: /assets/img/plot_timit_ours.png
 image_plot_pre: /assets/img/plot_timit_pre.png
-image_statistical: /assets/img/kws_significance_test.png /home/kiran/icassp_website/analysis/assets/img/kws_significance_test_2.png
+image_statistical: /assets/img/kws_significance_test.png
 ---
 # __Statistical Significance Test:__
 
