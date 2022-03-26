@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analysis on Learnt Represenatation"
-date:   2021-10-07 12:04:39 +0530
+date:   2022-03-26 12:04:39 +0530
 categories: jekyll update
 permalink: representation_analysis
 image_our: /assets/img/distribution_timit_ours.png
