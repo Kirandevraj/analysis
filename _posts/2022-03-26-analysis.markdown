@@ -15,6 +15,24 @@ ds: /assets/img/tamil_words.txt
 
 The transliteration of the tamil keywords from MSWC dataset for 190 keywords is attached here: [Text file]({{ page.ds | relative_url}})
 
+# __Low Resource Language Evaluation:__
+
+## __Vallader:__
+
+| Model | ALL | IV | OOV |
+|-------|-----|----|-----|
+|Pretrained + Triplet | 0.383 | 0.545 | 0.566 |
+|CTC + Triplet | 0.313 | 0.450 | 0.536 |
+|Pretrained + CTC + Triplet | 0.383 | 0.545 | 0.566 |
+
+## __Hausa:__
+
+| Model | ALL | IV | OOV |
+|-------|-----|----|-----|
+|Pretrained + Triplet | 0.082 | 0.135 | 0.187 |
+|CTC + Triplet | 0.408 | 0.552 | 0.604 |
+|Pretrained + CTC + Triplet | 0.301 | 0.428 | 0.554 |
+
 # __Statistical Significance Test:__
 
 Here we show Critical difference (CD) diagram using Friedman Test and a post-hoc pair-wise Nemenyi test, with a significance level of 0.05.  The higher the rank, the better the technique. The x axis where the lines end represents the average rank position of the respective methods for TIMIT datasets. The null hypothesis is that the average ranks of each pair of methods do not differ with statistical significance. Horizontal lines connect the lines of the methods for which we cannot exclude the hypothesis that their average ranks are equal. Any pair of methods whose lines are not connected with a horizontal line can be seen as having an average rank that is different with statistical significance. Our Pretrained + CTC + Triplet method's rank is higher than all other methods. Hence our method is statistically significant over all other methods.  The CD is 0.09.
