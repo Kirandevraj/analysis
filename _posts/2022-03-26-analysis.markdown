@@ -19,6 +19,10 @@ The transliteration of the tamil keywords from MSWC dataset for 190 keywords is 
 
 ## __Vallader:__
 
+
+The total number of words used for training is 233. The IV words used for evaluating results is 66 and OOV words used to evaluate the results is 59
+The total number of IV and OOV pairs is 0.5 million. The number of IV pairs is 0.1 million. The number of OOV pairs is 0.1 million. 
+
 | Model | ALL | IV | OOV |
 |-------|-----|----|-----|
 |Pretrained + Triplet | 0.383 | 0.545 | 0.566 |
@@ -27,11 +31,14 @@ The transliteration of the tamil keywords from MSWC dataset for 190 keywords is 
 
 ## __Hausa:__
 
+The total number of words used for training is 240. The total number of IV and OOV used to evaluate the performance is 77 and 61 words.
+The total number of IV and OOV pairs is 1.8 million. The number of IV pairs is 0.3 million. The number of OOV pairs is 0.5 million.
+
 | Model | ALL | IV | OOV |
 |-------|-----|----|-----|
 |Pretrained + Triplet | 0.082 | 0.135 | 0.187 |
 |CTC + Triplet | 0.408 | 0.552 | 0.604 |
-|Pretrained + CTC + Triplet | 0.301 | 0.428 | 0.554 |
+|Pretrained + CTC + Triplet | 0.428 | 0.554 | 0.634 |
 
 # __Statistical Significance Test:__
 
